@@ -1,5 +1,8 @@
 This python program can be run by running:
+
 python metrics.py cpu
+
+or
 
 python metrics.py mem
 

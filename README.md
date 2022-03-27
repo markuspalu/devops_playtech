@@ -1,5 +1,6 @@
 This python program can be run by running:
 python metrics.py cpu
+
 python metrics.py mem
 
 "python metrics.py cpu" creates a table and prints various CPU metrics.

@@ -13,8 +13,13 @@ The "psutil.virtual_memory()" command is supposed to print 11 values as said in 
 In line 55 if "psutil.virtual.memory()" worked as it is supposed to according to the documentation page, I would add the following lines. For people that get 5 values like me, these lines should be ommitted.
 
 print("active\t",vmemory[5])
+
 print("inactive\t",vmemory[6])
+
 print("buffers\t",vmemory[7])
+
 print("cached\t",vmemory[8])
+
 print("shared\t",vmemory[9])
+
 print("slab\t",vmemory[10])
